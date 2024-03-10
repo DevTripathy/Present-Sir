@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Present Sir!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main_box">
+
+        <div class="hero_container">
+
+            <form id="form">
+
+                <div class="heading">
+                    <h2>The Attendance Calculator</h2>
+                </div>
+    
+                <div class="input_container">
+    
+                    <div class="input_1 input_child">
+    
+                        <input type="number" placeholder="Enter The Total Number of Classes" id="total_class" required >
+        
+                    </div>
+                    <div class="input_2 input_child">
+        
+                        <input type="number" placeholder="Enter The Number of Classes You've Attended" id="attended_class" required>
+        
+                    </div>
+        
+                </div>
+    
+                <div class="button_container">
+                    <button type="submit">CHECK ATTENDANCE</button>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="popup popup-closed" id="popup">
+            <div class="resultbox">
+                <div class="messages">
+                    <h4 id="result-heading">🎉Congratulation🎉</h4>
+                    
+                    <p id="attendance"><b>Attendance : </b></p>
+                    <p id="classes-required"><b>Required Classes :</b></p>
+                </div>
+
+                <button id="restart">OK</button>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
